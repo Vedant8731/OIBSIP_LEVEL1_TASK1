@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("vpn2.jpg");
+    background-size: cover;
+}
+
+navi {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Georgia;
+}
+
+.Logo {
+    font-size: 30px;
+    letter-spacing: 3px;
+    border: 3px solid blue;
+    padding: 10px 20px;
+    border-radius: 120px;
+}
+
+.List a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+
+.List a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 3px solid skyblue;
+}
+
+.List a:hover:before {
+    width: 90%;
+}
+
+.Register a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: blue;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.Register a:hover {
+    border: 3px solid skyblue;
+}
+
+.h-txt {
+    max-width: 600px;
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    text-align: center;
+    color: azure;
+    font-family: serif Georgia;
+    font-style: italic;
+}
+
+.h-txt span {
+    font-size: 60px;
+}
+
+.h-txt h1 {
+    font-size: 60px;
+}
+
+.h-txt a {
+    text-decoration: none;
+    background: blue;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-family: serif Georgia;
+}
+
+.h-txt a:hover {
+    border: 3px solid lightblue;
+}
+
+.image1 {
+    position: absolute;
+    width: 30%;
+    top: 21%;
+    left: 63%;
+    border-radius: 60px;
+}
+
+.image2 {
+    position: absolute;
+    width: 30%;
+    top: 22%;
+    left: 7%;
+    border-radius: 60px;
+}
